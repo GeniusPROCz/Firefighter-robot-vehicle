@@ -1,8 +1,0 @@
-../Core/Src/gc9a01.c:4:13:GC9A01_SendCommand	16	static
-../Core/Src/gc9a01.c:10:13:GC9A01_SendData	16	static
-../Core/Src/gc9a01.c:16:13:GC9A01_SendData16	24	static
-../Core/Src/gc9a01.c:23:6:GC9A01_Reset	8	static
-../Core/Src/gc9a01.c:31:6:GC9A01_Init	8	static
-../Core/Src/gc9a01.c:64:6:GC9A01_SetAddressWindow	32	static
-../Core/Src/gc9a01.c:78:6:GC9A01_DrawPixel	16	static
-../Core/Src/gc9a01.c:85:6:GC9A01_FillScreen	24	static

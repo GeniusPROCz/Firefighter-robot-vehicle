@@ -1,8 +1,0 @@
-../Core/Src/gc9a01.c:4:13:GC9A01_SendCommand	1
-../Core/Src/gc9a01.c:10:13:GC9A01_SendData	1
-../Core/Src/gc9a01.c:16:13:GC9A01_SendData16	1
-../Core/Src/gc9a01.c:23:6:GC9A01_Reset	1
-../Core/Src/gc9a01.c:31:6:GC9A01_Init	1
-../Core/Src/gc9a01.c:64:6:GC9A01_SetAddressWindow	1
-../Core/Src/gc9a01.c:78:6:GC9A01_DrawPixel	3
-../Core/Src/gc9a01.c:85:6:GC9A01_FillScreen	2
