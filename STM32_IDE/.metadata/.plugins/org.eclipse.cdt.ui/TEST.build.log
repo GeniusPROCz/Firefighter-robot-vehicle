@@ -1,0 +1,28 @@
+14:58:55 **** Incremental Build of configuration Debug for project TEST ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/gc9a01.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/gc9a01.d" -MT"Core/Src/gc9a01.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/gc9a01.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:87:3: warning: implicit declaration of function 'GC9A01_Init' [-Wimplicit-function-declaration]
+   87 |   GC9A01_Init();
+      |   ^~~~~~~~~~~
+../Core/Src/main.c:90:3: warning: implicit declaration of function 'GC9A01_FillScreen' [-Wimplicit-function-declaration]
+   90 |   GC9A01_FillScreen(0xF800); // červená
+      |   ^~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "TEST.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\jansu\Desktop\Ročníková práce\STM32_IDE\TEST\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TEST.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TEST.elf
+ 
+arm-none-eabi-size  TEST.elf 
+arm-none-eabi-objdump -h -S TEST.elf  > "TEST.list"
+arm-none-eabi-objcopy  -O binary TEST.elf  "TEST.bin"
+   text	   data	    bss	    dec	    hex	filename
+   8196	     12	   1660	   9868	   268c	TEST.elf
+Finished building: default.size.stdout
+ 
+Finished building: TEST.list
+ 
+Finished building: TEST.bin
+ 
+
+14:58:57 Build Finished. 0 errors, 2 warnings. (took 1s.795ms)
+

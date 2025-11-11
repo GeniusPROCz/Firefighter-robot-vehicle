@@ -1,0 +1,190 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "6e2a7673-a3dd-4427-9adf-f28c7cc113a0")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 92.71 21.59)
+		(size 13.97 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "06543eb5-14dc-4566-bec2-3bfbedf9d5fd")
+		(property "Sheetname" "Control block"
+			(at 92.71 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 92.71 25.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32 RC AUTO MOZEK"
+				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 21.59)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "51c8adc8-39e6-4ff6-9e54-3a41925bf3db")
+		(property "Sheetname" "Measure Brick"
+			(at 63.5 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mainbrick.kicad_sch"
+			(at 63.5 25.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32 RC AUTO MOZEK"
+				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 21.59)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cf7fa0ae-78b0-45b6-90f8-84ece3ce253f")
+		(property "Sheetname" "Motor Brick"
+			(at 120.65 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motorbrick.kicad_sch"
+			(at 120.65 25.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32 RC AUTO MOZEK"
+				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 21.59)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dfd97a23-616e-451f-b7bb-3bcde87fded7")
+		(property "Sheetname" "Power Brick"
+			(at 30.48 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "powerbrick.kicad_sch"
+			(at 30.48 25.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 30.48 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "STM32 RC AUTO MOZEK"
+				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
