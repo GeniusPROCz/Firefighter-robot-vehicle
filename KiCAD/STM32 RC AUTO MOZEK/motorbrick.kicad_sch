@@ -2844,50 +2844,6 @@
 			)
 		)
 	)
-	(global_label "MOTOR3IN"
-		(shape input)
-		(at 256.54 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0c7fec60-2988-4029-8b5c-b67c96dc7a4f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOTOR5OUT"
-		(shape input)
-		(at 256.54 128.27 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1ab6a754-7a39-45b7-9bb0-8b9249c7368b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.3667 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MOTOR5a"
 		(shape input)
 		(at 110.49 82.55 270)
@@ -2910,28 +2866,6 @@
 			)
 		)
 	)
-	(global_label "MOTOR6IN"
-		(shape input)
-		(at 256.54 151.13 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1d2d5fea-6197-4d25-b595-fa7149faabff")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.06 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MOTOR4a"
 		(shape input)
 		(at 110.49 36.83 270)
@@ -2945,28 +2879,6 @@
 		(uuid "27a1952d-c353-45b1-84ef-ef36f48b0c2b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 110.49 48.5237 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOTOR4IN"
-		(shape input)
-		(at 256.54 100.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2fc54f75-44e1-4dd3-bb7a-0d97be838cf4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.06 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3038,28 +2950,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOTOR6OUT"
-		(shape input)
-		(at 256.54 153.67 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4e6ce2b9-3e3c-44ae-94f6-f3c8ba309d7e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.3667 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3240,28 +3130,6 @@
 			)
 		)
 	)
-	(global_label "MOTOR4OUT"
-		(shape input)
-		(at 256.54 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6dfc919d-d173-49c2-9578-5b8ca448af78")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.3667 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MOTOR1b"
 		(shape input)
 		(at 85.09 36.83 0)
@@ -3372,28 +3240,6 @@
 			)
 		)
 	)
-	(global_label "MOTOR2OUT"
-		(shape input)
-		(at 256.54 52.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "94a1937d-cdc7-4159-835c-a62f142db4c2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.3667 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MOTOR2b"
 		(shape input)
 		(at 34.29 104.14 0)
@@ -3412,28 +3258,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOTOR5IN"
-		(shape input)
-		(at 256.54 125.73 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a682d1f7-10b7-41df-baaf-93ca798fbfb9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.06 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3473,28 +3297,6 @@
 		(uuid "a8f56099-b7bf-4840-b3f9-44c03308322f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 110.49 139.9637 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOTOR3OUT"
-		(shape input)
-		(at 256.54 77.47 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ba4adfe3-45d6-49c7-a034-9c1d1cdcdb26")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.3667 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3790,28 +3592,6 @@
 			)
 		)
 	)
-	(global_label "MOTOR2IN"
-		(shape input)
-		(at 256.54 49.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f59d2fb9-f435-405f-9090-cffb809a8047")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.06 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MOTOR3IN"
 		(shape input)
 		(at 39.37 144.78 0)
@@ -3832,6 +3612,96 @@
 				(justify left)
 				(hide yes)
 			)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 195.58 106.68) (xy 105.41 106.68) (xy 105.41 153.67) (xy 195.58 153.67)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 16a32f41-b0c4-4d0c-9b1d-4cba80dc218c)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 195.58 60.96) (xy 105.41 60.96) (xy 105.41 106.68) (xy 195.58 106.68)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 7326454c-5575-42f3-9d90-067437c28bea)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 12.7 60.96) (xy 12.7 106.68) (xy 105.41 106.68) (xy 105.41 60.96)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 81d8faa8-b1de-4079-97c4-8096163dd3f1)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 12.7 106.68) (xy 105.41 106.68) (xy 105.41 153.67) (xy 12.7 153.67)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 906c7fb0-f169-4f15-b312-36e0f74dc9b7)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 105.41 12.7) (xy 105.41 60.96) (xy 195.58 60.96) (xy 195.58 12.7)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 9beb7047-f440-4856-bc83-8fd25a6e202a)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 12.7 12.7) (xy 12.7 60.96) (xy 105.41 60.96) (xy 105.41 15.24) (xy 105.41 12.7)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid e8ead6df-c57c-48c5-a045-f83ac54c2bda)
 		)
 	)
 	(symbol
@@ -6399,76 +6269,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 261.62 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59d886c9-f13a-4520-9c80-4512f246866a")
-		(property "Reference" "J5"
-			(at 262.89 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 262.89 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm_Relief"
-			(at 261.62 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 261.62 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 261.62 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21019369-4414-44cd-bdd2-d59a73c18a57")
-		)
-		(pin "2"
-			(uuid "2225fc37-8eff-46d1-bd72-665f852673ac")
-		)
-		(instances
-			(project "STM32 RC AUTO MOZEK"
-				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SI2312:SI2312")
 		(at 166.37 26.67 0)
 		(unit 1)
@@ -6863,76 +6663,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 261.62 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6468fdd9-2a43-44d0-a5cb-a8f3b0189f42")
-		(property "Reference" "J3"
-			(at 262.89 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 262.89 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm_Relief"
-			(at 261.62 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 261.62 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 261.62 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "45b3a354-1fbb-4f8b-b133-2b81b8eda725")
-		)
-		(pin "2"
-			(uuid "42837fcc-6c67-4603-acd8-950c0fb60991")
-		)
-		(instances
-			(project "STM32 RC AUTO MOZEK"
-				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SI2312:SI2312")
 		(at 24.13 48.26 0)
 		(unit 1)
@@ -7157,76 +6887,6 @@
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
 					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 261.62 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b0ee256-536d-4175-8688-313eb0c93d09")
-		(property "Reference" "J6"
-			(at 262.89 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 262.89 128.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm_Relief"
-			(at 261.62 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 261.62 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 261.62 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "525229dd-8e63-4524-9d05-a093c6fca64e")
-		)
-		(pin "2"
-			(uuid "017ec015-a8c3-4f54-9f5f-3a7c571fd92a")
-		)
-		(instances
-			(project "STM32 RC AUTO MOZEK"
-				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -9037,76 +8697,6 @@
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
 					(reference "Q43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 261.62 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a4b769e-6052-4031-8ba8-a74529c712ee")
-		(property "Reference" "J7"
-			(at 262.89 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 262.89 153.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm_Relief"
-			(at 261.62 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 261.62 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 261.62 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff0cd36a-c7c1-43c2-abe9-bc8f39dcc409")
-		)
-		(pin "2"
-			(uuid "eba96ff9-d5b3-4271-8d03-5fba6d7d341b")
-		)
-		(instances
-			(project "STM32 RC AUTO MOZEK"
-				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -10991,76 +10581,6 @@
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
 					(reference "Q48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 261.62 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c33ceb9d-15fb-43a6-985b-efff3f0fe1e5")
-		(property "Reference" "J4"
-			(at 262.89 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 262.89 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm_Relief"
-			(at 261.62 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 261.62 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 261.62 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7425b6fc-5390-4207-801c-be76df6a30e8")
-		)
-		(pin "2"
-			(uuid "e753a3d9-4f6b-47c0-b386-afb699c60d22")
-		)
-		(instances
-			(project "STM32 RC AUTO MOZEK"
-				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "J4")
 					(unit 1)
 				)
 			)
