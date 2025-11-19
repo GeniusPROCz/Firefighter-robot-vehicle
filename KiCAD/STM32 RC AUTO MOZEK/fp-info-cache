@@ -1,4 +1,4 @@
-27470845117586585
+27476133659439070
 1393788-3
 TE_1393788-3
 
@@ -89319,6 +89319,13 @@ TO-264-5 Vertical RM 3.81mm
 0
 5
 5
+PinHeadersCustom
+PinHeader-3x2-custom
+
+
+0
+6
+6
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
@@ -93841,6 +93848,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SI2312
+SOT23
+<b>SMALL OUTLINE TRANSISTOR</b><p>reflow soldering
+
+0
+3
+3
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -110144,3 +110158,10 @@ CHESTER-X-NO-SPRING
 0
 17
 17
+pins
+3x2 PinHeader
+
+
+0
+6
+6

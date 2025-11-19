@@ -940,6 +940,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 34.29) (xy 27.94 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e92c11b-40d5-43f6-b5f1-c8288ee65c22")
+	)
+	(wire
+		(pts
 			(xy 194.31 81.28) (xy 200.66 81.28)
 		)
 		(stroke
@@ -989,6 +999,72 @@
 		(uuid "d6ff52d9-d5ff-4264-a5c6-fb340f96cd9c")
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 35.56 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16de25dc-5b02-42b0-b15c-4a226b6ef885")
+		(property "Reference" "#PWR086"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 35.56 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 35.56 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96c5a5e2-1141-4d5e-ab5d-15a39d765166")
+		)
+		(instances
+			(project "STM32 RC AUTO MOZEK"
+				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/dfd97a23-616e-451f-b7bb-3bcde87fded7"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 194.31 81.28 0)
 		(unit 1)
@@ -998,7 +1074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1827f3ee-97b9-4582-b9c1-6b031df418a9")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR05"
 			(at 194.31 85.09 0)
 			(effects
 				(font
@@ -1048,7 +1124,7 @@
 		(instances
 			(project ""
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/dfd97a23-616e-451f-b7bb-3bcde87fded7"
-					(reference "#PWR06")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -1064,7 +1140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "268a6eff-07bc-40b9-b2ef-6056f671ba92")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 182.88 74.93 0)
 			(effects
 				(font
@@ -1121,7 +1197,7 @@
 		(instances
 			(project ""
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/dfd97a23-616e-451f-b7bb-3bcde87fded7"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -1137,7 +1213,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4252f427-32a4-4e1b-9dfa-722af6c96cf5")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 208.28 74.93 0)
 			(effects
 				(font
@@ -1192,7 +1268,73 @@
 		(instances
 			(project ""
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/dfd97a23-616e-451f-b7bb-3bcde87fded7"
-					(reference "U1")
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 27.94 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45dc6cd2-9252-488c-a1c7-45a063bd712f")
+		(property "Reference" "#PWR085"
+			(at 27.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 27.94 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45507c56-0d0c-428a-aa3b-baa13043d15d")
+		)
+		(instances
+			(project "STM32 RC AUTO MOZEK"
+				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/dfd97a23-616e-451f-b7bb-3bcde87fded7"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -1208,7 +1350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d8b98e4-0bad-4d68-bfac-396825419007")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR03"
 			(at 175.26 85.09 0)
 			(effects
 				(font
@@ -1258,7 +1400,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/dfd97a23-616e-451f-b7bb-3bcde87fded7"
-					(reference "#PWR013")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -1274,7 +1416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ea6993d-3e7f-4f37-9b24-7186aa8ed9a7")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR02"
 			(at 35.56 24.13 0)
 			(effects
 				(font
@@ -1324,7 +1466,7 @@
 		(instances
 			(project ""
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/dfd97a23-616e-451f-b7bb-3bcde87fded7"
-					(reference "#PWR08")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1340,7 +1482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "622d79a5-195b-47c4-9a82-97fd5853937f")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR01"
 			(at 27.94 29.21 0)
 			(effects
 				(font
@@ -1390,7 +1532,7 @@
 		(instances
 			(project ""
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/dfd97a23-616e-451f-b7bb-3bcde87fded7"
-					(reference "#PWR09")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1406,7 +1548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a663a95-fa52-490a-b750-cefd51f15a60")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 222.25 85.09 0)
 			(effects
 				(font
@@ -1456,7 +1598,7 @@
 		(instances
 			(project ""
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/dfd97a23-616e-451f-b7bb-3bcde87fded7"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -1488,7 +1630,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm_Relief"
+		(property "Footprint" "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm"
 			(at 22.86 22.86 0)
 			(effects
 				(font
@@ -1531,6 +1673,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 22.86 36.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc157321-37b4-4109-8155-1f7727be9356")
+		(property "Reference" "J14"
+			(at 23.495 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 23.495 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm"
+			(at 22.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 22.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a2cee90-b563-48b9-a62b-9d7e34625e42")
+		)
+		(pin "2"
+			(uuid "bc82f44d-5ee6-4111-889c-7d3e93424d80")
+		)
+		(instances
+			(project "STM32 RC AUTO MOZEK"
+				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/dfd97a23-616e-451f-b7bb-3bcde87fded7"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 182.88 88.9 0)
 		(unit 1)
@@ -1540,7 +1750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4c37312-90c2-4636-b6f5-ba35cfa70c4a")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR04"
 			(at 182.88 95.25 0)
 			(effects
 				(font
@@ -1590,7 +1800,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/dfd97a23-616e-451f-b7bb-3bcde87fded7"
-					(reference "#PWR010")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)

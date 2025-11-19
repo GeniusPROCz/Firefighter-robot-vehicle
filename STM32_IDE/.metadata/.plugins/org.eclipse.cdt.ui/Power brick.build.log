@@ -1,0 +1,20 @@
+19:34:53 **** Incremental Build of configuration Debug for project Power brick ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:139:13: warning: 'MX_GPIO_Init' defined but not used [-Wunused-function]
+  139 | static void MX_GPIO_Init(void)
+      |             ^~~~~~~~~~~~
+arm-none-eabi-gcc -o "Power brick.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\jansu\Documents\GitHub\Firefighter-robot-vehicle\STM32_IDE\Power brick\STM32F411RCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Power brick.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Power brick.elf
+ 
+arm-none-eabi-size  Power\ brick.elf 
+arm-none-eabi-objdump -h -S Power\ brick.elf  > "Power brick.list"
+   text	   data	    bss	    dec	    hex	filename
+   2592	     12	   1572	   4176	   1050	Power brick.elf
+Finished building: default.size.stdout
+ 
+Finished building: Power brick.list
+ 
+
+19:34:54 Build Finished. 0 errors, 1 warnings. (took 1s.65ms)
+

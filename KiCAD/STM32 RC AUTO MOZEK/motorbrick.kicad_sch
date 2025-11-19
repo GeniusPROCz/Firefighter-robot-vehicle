@@ -2844,9 +2844,75 @@
 			)
 		)
 	)
-	(global_label "MOTOR5a"
+	(global_label "MOTOR4b"
 		(shape input)
-		(at 110.49 82.55 270)
+		(at 125.73 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b3c72ef-1512-4263-98a2-4e6bf22f9f42")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.4237 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOTOR1b"
+		(shape input)
+		(at 85.09 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "10f4a510-73df-4b9c-8d4b-043786f10165")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.7837 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOTOR4b"
+		(shape input)
+		(at 176.53 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1da441c6-7415-4131-b08e-576273d42573")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.2237 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOTOR4a"
+		(shape input)
+		(at 110.49 128.27 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2854,9 +2920,9 @@
 			)
 			(justify right)
 		)
-		(uuid "1bccbf43-c9fb-4d93-ab03-3ca26b13e838")
+		(uuid "2784bff5-1dc8-43c4-b8e1-e2d4a46df1b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.49 94.2437 90)
+			(at 110.49 139.9637 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2888,9 +2954,9 @@
 			)
 		)
 	)
-	(global_label "MOTOR3a"
+	(global_label "MOTOR1b"
 		(shape input)
-		(at 85.09 149.86 0)
+		(at 85.09 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2898,9 +2964,9 @@
 			)
 			(justify left)
 		)
-		(uuid "385db139-8164-4b2a-8a9a-7f9cf80abb8b")
+		(uuid "2e95faf7-63dd-4806-89fd-f0bdc7c56ef0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.7837 149.86 0)
+			(at 96.7837 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2932,9 +2998,9 @@
 			)
 		)
 	)
-	(global_label "MOTOR3b"
+	(global_label "MOTOR4b"
 		(shape input)
-		(at 34.29 149.86 0)
+		(at 176.53 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2942,9 +3008,9 @@
 			)
 			(justify left)
 		)
-		(uuid "4c9601d5-ddab-4574-949d-cabfef20974c")
+		(uuid "44977180-58e1-40c1-b077-e43a89f4d507")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.9837 149.86 0)
+			(at 188.2237 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2989,28 +3055,6 @@
 		(uuid "528e9ced-b8b9-4cae-be4f-a061e6bc7b1b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 137.4237 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOTOR6a"
-		(shape input)
-		(at 176.53 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "57a38129-d1a1-426e-8b28-a9782d047ac6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.2237 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3077,6 +3121,28 @@
 		(uuid "6107c1fa-5854-4fd8-ade1-e8ac1969a990")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 45.9837 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOTOR1b"
+		(shape input)
+		(at 34.29 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "623fd6f3-9c6e-43f6-8b1a-34d8651c04c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.9837 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3154,6 +3220,50 @@
 	)
 	(global_label "MOTOR1a"
 		(shape input)
+		(at 85.09 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "74254ac4-4f08-4a80-a1c2-aaf0a6b05ecd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.7837 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOTOR4a"
+		(shape input)
+		(at 110.49 82.55 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "77764063-85f6-48a0-b10f-4f65efbad002")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.49 94.2437 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOTOR1a"
+		(shape input)
 		(at 85.09 58.42 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3165,6 +3275,28 @@
 		(uuid "7e5c2030-2aae-41de-abbb-1a6756c52ec4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 96.7837 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOTOR1b"
+		(shape input)
+		(at 34.29 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8335663b-5e14-45e4-b0ed-a9ad7a081a51")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.9837 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3196,28 +3328,6 @@
 			)
 		)
 	)
-	(global_label "MOTOR2a"
-		(shape input)
-		(at 85.09 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8852719d-2146-47bd-9a09-57b5356213ad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.7837 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MOTOR1IN"
 		(shape input)
 		(at 90.17 53.34 0)
@@ -3240,9 +3350,9 @@
 			)
 		)
 	)
-	(global_label "MOTOR2b"
+	(global_label "MOTOR4a"
 		(shape input)
-		(at 34.29 104.14 0)
+		(at 176.53 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3250,9 +3360,9 @@
 			)
 			(justify left)
 		)
-		(uuid "a4a284a3-a523-414b-8cec-6a0ff35bc7fb")
+		(uuid "a70324f7-7f37-4ce3-b075-adea49b260d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.9837 104.14 0)
+			(at 188.2237 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3284,9 +3394,9 @@
 			)
 		)
 	)
-	(global_label "MOTOR6a"
+	(global_label "MOTOR1a"
 		(shape input)
-		(at 110.49 128.27 270)
+		(at 19.05 128.27 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3294,14 +3404,36 @@
 			)
 			(justify right)
 		)
-		(uuid "a8f56099-b7bf-4840-b3f9-44c03308322f")
+		(uuid "acf41dda-00d7-45be-acaf-931d0caa05e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.49 139.9637 90)
+			(at 19.05 139.9637 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOTOR1a"
+		(shape input)
+		(at 85.09 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b08feca7-ab0d-4390-83d7-d511cc4918c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.7837 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3319,28 +3451,6 @@
 		(uuid "c3c1ec1e-47f4-4706-abfc-4dac2b9ed113")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 19.05 48.5237 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOTOR3a"
-		(shape input)
-		(at 19.05 128.27 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c5cf2cac-f338-4462-bddc-9e6a9f3819b9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.05 139.9637 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3372,28 +3482,6 @@
 			)
 		)
 	)
-	(global_label "MOTOR5b"
-		(shape input)
-		(at 176.53 82.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c815c417-5fc0-490f-9178-12991fbd2b0e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.2237 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MOTOR6IN"
 		(shape input)
 		(at 181.61 144.78 0)
@@ -3407,28 +3495,6 @@
 		(uuid "c910476b-ca88-497d-9811-573e6a00a58a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 194.09 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOTOR2b"
-		(shape input)
-		(at 85.09 82.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ca3cec7b-9ebd-40fe-b567-cd457acc26c1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.7837 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3460,9 +3526,9 @@
 			)
 		)
 	)
-	(global_label "MOTOR3b"
+	(global_label "MOTOR4a"
 		(shape input)
-		(at 90.17 123.19 0)
+		(at 176.53 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3470,9 +3536,9 @@
 			)
 			(justify left)
 		)
-		(uuid "d3d8bf10-c405-468e-b2d1-29468ad61c70")
+		(uuid "db70c332-dd48-4652-bca0-90ac83d59993")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.8637 123.19 0)
+			(at 188.2237 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3482,95 +3548,7 @@
 			)
 		)
 	)
-	(global_label "MOTOR5a"
-		(shape input)
-		(at 176.53 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dfb4ad8e-ee21-44b5-880a-fdbbc7bee9fa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.2237 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOTOR6b"
-		(shape input)
-		(at 176.53 128.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e9414634-9bea-4890-ac19-df564f91f46a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.2237 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOTOR5b"
-		(shape input)
-		(at 125.73 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eaec3185-8eec-4a08-944e-26fc55607fd7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.4237 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOTOR6b"
-		(shape input)
-		(at 125.73 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ee187e42-e223-49de-9fcd-9256f2ea7c6c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.4237 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOTOR2a"
+	(global_label "MOTOR1a"
 		(shape input)
 		(at 19.05 82.55 270)
 		(fields_autoplaced yes)
@@ -3580,7 +3558,7 @@
 			)
 			(justify right)
 		)
-		(uuid "f5542b3b-519a-4c04-a6cc-5fee96db4a12")
+		(uuid "e7c9174a-63be-418c-8aa3-c8c1d9f973cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 19.05 94.2437 90)
 			(effects
@@ -3588,6 +3566,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOTOR4b"
+		(shape input)
+		(at 125.73 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e8597d29-1a4f-4751-807e-05f5319fe300")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.4237 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3617,7 +3617,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 195.58 106.68) (xy 105.41 106.68) (xy 105.41 153.67) (xy 195.58 153.67)
+				(xy 12.7 12.7) (xy 12.7 60.96) (xy 105.41 60.96) (xy 105.41 15.24) (xy 105.41 12.7)
 			)
 			(stroke
 				(width 0)
@@ -3626,52 +3626,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 16a32f41-b0c4-4d0c-9b1d-4cba80dc218c)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 195.58 60.96) (xy 105.41 60.96) (xy 105.41 106.68) (xy 195.58 106.68)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 7326454c-5575-42f3-9d90-067437c28bea)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 12.7 60.96) (xy 12.7 106.68) (xy 105.41 106.68) (xy 105.41 60.96)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 81d8faa8-b1de-4079-97c4-8096163dd3f1)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 12.7 106.68) (xy 105.41 106.68) (xy 105.41 153.67) (xy 12.7 153.67)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 906c7fb0-f169-4f15-b312-36e0f74dc9b7)
+			(uuid 19611e92-dccc-4d18-965a-b6811319e11b)
 		)
 	)
 	(rule_area
@@ -3686,13 +3641,13 @@
 			(fill
 				(type none)
 			)
-			(uuid 9beb7047-f440-4856-bc83-8fd25a6e202a)
+			(uuid 42525f3c-3614-45fc-a6ec-65225ede323f)
 		)
 	)
 	(rule_area
 		(polyline
 			(pts
-				(xy 12.7 12.7) (xy 12.7 60.96) (xy 105.41 60.96) (xy 105.41 15.24) (xy 105.41 12.7)
+				(xy 195.58 106.68) (xy 105.41 106.68) (xy 105.41 153.67) (xy 195.58 153.67)
 			)
 			(stroke
 				(width 0)
@@ -3701,7 +3656,52 @@
 			(fill
 				(type none)
 			)
-			(uuid e8ead6df-c57c-48c5-a045-f83ac54c2bda)
+			(uuid 515921a2-aba0-4f74-8c72-7accc0e3c76e)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 12.7 60.96) (xy 12.7 106.68) (xy 105.41 106.68) (xy 105.41 60.96)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 790b33a7-b4d6-4be6-b4b5-10c6e1691b7a)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 12.7 106.68) (xy 105.41 106.68) (xy 105.41 153.67) (xy 12.7 153.67)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid df54bcbe-2cf1-4e31-b516-ae48039ddcbe)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 195.58 60.96) (xy 105.41 60.96) (xy 105.41 106.68) (xy 195.58 106.68)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid ec7bc785-1026-4098-ab4c-1875f8367e26)
 		)
 	)
 	(symbol
@@ -3714,7 +3714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00162411-933f-4bba-92c3-ca0b30047a4e")
-		(property "Reference" "Q12"
+		(property "Reference" "Q14"
 			(at 41.91 92.6064 0)
 			(effects
 				(font
@@ -3862,7 +3862,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q12")
+					(reference "Q14")
 					(unit 1)
 				)
 			)
@@ -3878,7 +3878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0810f679-400e-44fe-a005-f41b40152c79")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR065"
 			(at 39.37 116.84 0)
 			(effects
 				(font
@@ -3928,7 +3928,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "#PWR052")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -3944,7 +3944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c467aa3-d0bb-4cec-ab05-55f65801cdce")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR073"
 			(at 166.37 71.12 0)
 			(effects
 				(font
@@ -3994,7 +3994,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "#PWR061")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -4174,7 +4174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1965dcbc-49d9-4130-a9cc-d2bc5dd866dc")
-		(property "Reference" "Q11"
+		(property "Reference" "Q13"
 			(at 41.91 71.0164 0)
 			(effects
 				(font
@@ -4322,7 +4322,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q11")
+					(reference "Q13")
 					(unit 1)
 				)
 			)
@@ -4502,7 +4502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ba7a760-93af-4ab2-b170-0044512df62b")
-		(property "Reference" "Q6"
+		(property "Reference" "Q12"
 			(at 41.91 46.8864 0)
 			(effects
 				(font
@@ -4650,7 +4650,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q6")
+					(reference "Q12")
 					(unit 1)
 				)
 			)
@@ -4666,7 +4666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d27846f-9ffe-46a9-9bd7-62db5495606f")
-		(property "Reference" "Q4"
+		(property "Reference" "Q23"
 			(at 92.71 25.2964 0)
 			(effects
 				(font
@@ -4814,7 +4814,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q4")
+					(reference "Q23")
 					(unit 1)
 				)
 			)
@@ -4830,7 +4830,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "215c1bed-a139-4919-a9f7-cd96c35ec84c")
-		(property "Reference" "Q14"
+		(property "Reference" "Q20"
 			(at 77.47 92.6064 0)
 			(effects
 				(font
@@ -4978,7 +4978,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q14")
+					(reference "Q20")
 					(unit 1)
 				)
 			)
@@ -4994,7 +4994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2dad5875-c656-4e02-a7f4-9bf5939571b6")
-		(property "Reference" "Q46"
+		(property "Reference" "Q50"
 			(at 184.15 92.6064 0)
 			(effects
 				(font
@@ -5142,7 +5142,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q46")
+					(reference "Q50")
 					(unit 1)
 				)
 			)
@@ -5158,7 +5158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "318f669b-e432-44ad-94d5-1933a0bf720b")
-		(property "Reference" "Q3"
+		(property "Reference" "Q17"
 			(at 77.47 25.2964 0)
 			(effects
 				(font
@@ -5306,7 +5306,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q3")
+					(reference "Q17")
 					(unit 1)
 				)
 			)
@@ -5322,7 +5322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33f086fa-c07f-49ec-a081-522412a9c76c")
-		(property "Reference" "Q42"
+		(property "Reference" "Q46"
 			(at 168.91 138.3264 0)
 			(effects
 				(font
@@ -5470,7 +5470,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q42")
+					(reference "Q46")
 					(unit 1)
 				)
 			)
@@ -5486,7 +5486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "443717a9-80d0-45a0-afa2-d0c6b9403c45")
-		(property "Reference" "Q40"
+		(property "Reference" "Q44"
 			(at 168.91 92.6064 0)
 			(effects
 				(font
@@ -5634,7 +5634,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q40")
+					(reference "Q44")
 					(unit 1)
 				)
 			)
@@ -5650,7 +5650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "471ddb70-a9c9-49c1-83fc-daa27694a769")
-		(property "Reference" "J2"
+		(property "Reference" "J8"
 			(at 50.8 41.2749 90)
 			(effects
 				(font
@@ -5668,7 +5668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm_Relief"
+		(property "Footprint" "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm"
 			(at 49.53 43.18 0)
 			(effects
 				(font
@@ -5704,7 +5704,7 @@
 		(instances
 			(project ""
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "J2")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -5720,7 +5720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "495add1f-e2c3-4f52-86f3-baa64fb8ba30")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR071"
 			(at 130.81 116.84 0)
 			(effects
 				(font
@@ -5770,7 +5770,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "#PWR059")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -5786,7 +5786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b51b794-4748-456a-8290-31498235dcf7")
-		(property "Reference" "Q1"
+		(property "Reference" "Q5"
 			(at 26.67 25.2964 0)
 			(effects
 				(font
@@ -5934,7 +5934,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q1")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -5950,7 +5950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "541d1864-dba9-4c99-a37e-3a375ab40613")
-		(property "Reference" "Q9"
+		(property "Reference" "Q7"
 			(at 26.67 71.0164 0)
 			(effects
 				(font
@@ -6098,7 +6098,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q9")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -6114,7 +6114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58a8c904-970a-4fb4-98e8-99810b121898")
-		(property "Reference" "Q20"
+		(property "Reference" "Q16"
 			(at 41.91 138.3264 0)
 			(effects
 				(font
@@ -6262,7 +6262,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q20")
+					(reference "Q16")
 					(unit 1)
 				)
 			)
@@ -6278,7 +6278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d649c9a-861c-4ad0-b71f-f3128ec2c20a")
-		(property "Reference" "Q37"
+		(property "Reference" "Q41"
 			(at 168.91 25.2964 0)
 			(effects
 				(font
@@ -6426,7 +6426,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q37")
+					(reference "Q41")
 					(unit 1)
 				)
 			)
@@ -6442,7 +6442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fcf4cdb-da01-41f5-bdc8-40b88eadd83b")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR070"
 			(at 130.81 71.12 0)
 			(effects
 				(font
@@ -6492,7 +6492,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "#PWR058")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -6508,7 +6508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61972fc2-31d6-4334-b3c6-d7a269ddc131")
-		(property "Reference" "Q30"
+		(property "Reference" "Q34"
 			(at 118.11 138.3264 0)
 			(effects
 				(font
@@ -6656,7 +6656,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q30")
+					(reference "Q34")
 					(unit 1)
 				)
 			)
@@ -6672,7 +6672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67c46fc5-b3c6-414f-8530-f17f1680458f")
-		(property "Reference" "Q5"
+		(property "Reference" "Q6"
 			(at 26.67 46.8864 0)
 			(effects
 				(font
@@ -6820,7 +6820,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q5")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -6836,7 +6836,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a6f6fa8-ad8f-4c04-927d-e86cf4eb93fe")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR066"
 			(at 74.93 25.4 0)
 			(effects
 				(font
@@ -6886,7 +6886,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "#PWR046")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -6902,7 +6902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cb224cf-1d46-4da7-9472-534e2b61701b")
-		(property "Reference" "Q45"
+		(property "Reference" "Q49"
 			(at 184.15 71.0164 0)
 			(effects
 				(font
@@ -7050,7 +7050,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q45")
+					(reference "Q49")
 					(unit 1)
 				)
 			)
@@ -7066,7 +7066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cc69016-249e-4bd5-b252-34050bf2406b")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR068"
 			(at 74.93 116.84 0)
 			(effects
 				(font
@@ -7116,7 +7116,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "#PWR054")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -7132,7 +7132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "704f110f-c3b9-4896-8af7-67a4f916a07e")
-		(property "Reference" "J11"
+		(property "Reference" "J10"
 			(at 50.8 132.7149 90)
 			(effects
 				(font
@@ -7150,7 +7150,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm_Relief"
+		(property "Footprint" "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm"
 			(at 49.53 134.62 0)
 			(effects
 				(font
@@ -7186,7 +7186,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "J11")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -7202,7 +7202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70ebecd1-cdf8-4760-b852-f051663dc944")
-		(property "Reference" "Q44"
+		(property "Reference" "Q48"
 			(at 184.15 46.8864 0)
 			(effects
 				(font
@@ -7350,7 +7350,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q44")
+					(reference "Q48")
 					(unit 1)
 				)
 			)
@@ -7366,7 +7366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73a3adc4-16ea-4c94-aa6e-6d61802cdc76")
-		(property "Reference" "Q17"
+		(property "Reference" "Q9"
 			(at 26.67 116.7364 0)
 			(effects
 				(font
@@ -7514,7 +7514,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q17")
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -7530,7 +7530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "740c1170-b910-4f68-8efa-0f84ada57b4b")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR063"
 			(at 39.37 25.4 0)
 			(effects
 				(font
@@ -7580,7 +7580,7 @@
 		(instances
 			(project ""
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "#PWR044")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -7596,7 +7596,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "755bc882-da4c-46a4-9547-8c6f39133b40")
-		(property "Reference" "Q27"
+		(property "Reference" "Q31"
 			(at 118.11 71.0164 0)
 			(effects
 				(font
@@ -7744,7 +7744,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q27")
+					(reference "Q31")
 					(unit 1)
 				)
 			)
@@ -7760,7 +7760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "797903da-9c61-4f96-ad3b-4eced455a0cc")
-		(property "Reference" "Q18"
+		(property "Reference" "Q10"
 			(at 26.67 138.3264 0)
 			(effects
 				(font
@@ -7908,7 +7908,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q18")
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -7924,7 +7924,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79ee8770-c453-4dcc-8b1e-e143888bdb33")
-		(property "Reference" "Q29"
+		(property "Reference" "Q33"
 			(at 118.11 116.7364 0)
 			(effects
 				(font
@@ -8072,7 +8072,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q29")
+					(reference "Q33")
 					(unit 1)
 				)
 			)
@@ -8088,7 +8088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c540bfc-22a4-4bc3-8266-01aff814584f")
-		(property "Reference" "Q34"
+		(property "Reference" "Q38"
 			(at 133.35 92.6064 0)
 			(effects
 				(font
@@ -8236,7 +8236,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q34")
+					(reference "Q38")
 					(unit 1)
 				)
 			)
@@ -8252,7 +8252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cff088e-ea90-4ccd-a1d3-e0fcd2ced638")
-		(property "Reference" "Q33"
+		(property "Reference" "Q37"
 			(at 133.35 71.0164 0)
 			(effects
 				(font
@@ -8400,7 +8400,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q33")
+					(reference "Q37")
 					(unit 1)
 				)
 			)
@@ -8416,7 +8416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f1f9238-1632-45b2-8bee-372a71d8b616")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR074"
 			(at 166.37 116.84 0)
 			(effects
 				(font
@@ -8466,7 +8466,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "#PWR062")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -8482,7 +8482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f465d36-ccb5-4800-9b57-9ca168a78466")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR067"
 			(at 74.93 71.12 0)
 			(effects
 				(font
@@ -8532,7 +8532,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "#PWR050")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -8548,7 +8548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89823f91-fdb7-409d-a673-f05aee5d8e35")
-		(property "Reference" "Q43"
+		(property "Reference" "Q47"
 			(at 184.15 25.2964 0)
 			(effects
 				(font
@@ -8696,7 +8696,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q43")
+					(reference "Q47")
 					(unit 1)
 				)
 			)
@@ -8712,7 +8712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f5e10a6-b90a-4d24-8521-fbc9febc73ca")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR072"
 			(at 166.37 25.4 0)
 			(effects
 				(font
@@ -8762,7 +8762,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "#PWR060")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -8778,7 +8778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "956e83bc-2403-4cf0-bc4d-d0109121aef9")
-		(property "Reference" "Q13"
+		(property "Reference" "Q19"
 			(at 77.47 71.0164 0)
 			(effects
 				(font
@@ -8926,7 +8926,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q13")
+					(reference "Q19")
 					(unit 1)
 				)
 			)
@@ -8942,7 +8942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9880950e-1c1d-4257-acb1-e6106b7321f0")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR064"
 			(at 39.37 71.12 0)
 			(effects
 				(font
@@ -8992,7 +8992,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "#PWR048")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -9008,7 +9008,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c3cc2bb-e80b-438a-927e-ecdc214f7438")
-		(property "Reference" "Q47"
+		(property "Reference" "Q51"
 			(at 184.15 116.7364 0)
 			(effects
 				(font
@@ -9156,7 +9156,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q47")
+					(reference "Q51")
 					(unit 1)
 				)
 			)
@@ -9172,7 +9172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e9ee2b3-3c90-40f2-a452-65e1863193bb")
-		(property "Reference" "J14"
+		(property "Reference" "J13"
 			(at 142.24 132.7149 90)
 			(effects
 				(font
@@ -9190,7 +9190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm_Relief"
+		(property "Footprint" "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm"
 			(at 140.97 134.62 0)
 			(effects
 				(font
@@ -9226,7 +9226,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "J14")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -9242,7 +9242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0f0358a-ce80-452f-8b95-56b05367e425")
-		(property "Reference" "Q39"
+		(property "Reference" "Q43"
 			(at 168.91 71.0164 0)
 			(effects
 				(font
@@ -9390,7 +9390,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q39")
+					(reference "Q43")
 					(unit 1)
 				)
 			)
@@ -9406,7 +9406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2cf8333-87d9-4993-b61b-8b1c8f0a7360")
-		(property "Reference" "Q25"
+		(property "Reference" "Q29"
 			(at 118.11 25.2964 0)
 			(effects
 				(font
@@ -9554,7 +9554,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q25")
+					(reference "Q29")
 					(unit 1)
 				)
 			)
@@ -9588,7 +9588,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm_Relief"
+		(property "Footprint" "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm"
 			(at 49.53 88.9 0)
 			(effects
 				(font
@@ -9640,7 +9640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7bfb64e-ffb9-42b4-88bd-7903f83fc3a3")
-		(property "Reference" "Q32"
+		(property "Reference" "Q36"
 			(at 133.35 46.8864 0)
 			(effects
 				(font
@@ -9788,7 +9788,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q32")
+					(reference "Q36")
 					(unit 1)
 				)
 			)
@@ -9804,7 +9804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a96378c7-d755-46d5-812e-16111f0e8de7")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR069"
 			(at 130.81 25.4 0)
 			(effects
 				(font
@@ -9854,7 +9854,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "#PWR057")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -9870,7 +9870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab443eeb-4394-4fe6-b953-5d9b326f5bfb")
-		(property "Reference" "Q15"
+		(property "Reference" "Q25"
 			(at 92.71 71.0164 0)
 			(effects
 				(font
@@ -10018,7 +10018,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q15")
+					(reference "Q25")
 					(unit 1)
 				)
 			)
@@ -10034,7 +10034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abd176e8-69a9-4093-82cb-759ec5d1b1c8")
-		(property "Reference" "Q35"
+		(property "Reference" "Q39"
 			(at 133.35 116.7364 0)
 			(effects
 				(font
@@ -10182,7 +10182,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q35")
+					(reference "Q39")
 					(unit 1)
 				)
 			)
@@ -10198,7 +10198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1f63d89-1ac6-4f37-b62c-2535d4aa3ac0")
-		(property "Reference" "Q28"
+		(property "Reference" "Q32"
 			(at 118.11 92.6064 0)
 			(effects
 				(font
@@ -10346,7 +10346,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q28")
+					(reference "Q32")
 					(unit 1)
 				)
 			)
@@ -10362,7 +10362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b73436fc-4bea-4c5c-b40b-258125d0034b")
-		(property "Reference" "J12"
+		(property "Reference" "J11"
 			(at 142.24 41.2749 90)
 			(effects
 				(font
@@ -10380,7 +10380,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm_Relief"
+		(property "Footprint" "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm"
 			(at 140.97 43.18 0)
 			(effects
 				(font
@@ -10416,7 +10416,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "J12")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -10432,7 +10432,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf889357-c824-4503-837e-85ca18a6f7f3")
-		(property "Reference" "Q48"
+		(property "Reference" "Q52"
 			(at 184.15 138.3264 0)
 			(effects
 				(font
@@ -10580,7 +10580,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q48")
+					(reference "Q52")
 					(unit 1)
 				)
 			)
@@ -10596,7 +10596,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4fc527b-6d0e-4729-bd9c-ad674abe3f3f")
-		(property "Reference" "Q24"
+		(property "Reference" "Q28"
 			(at 92.71 138.3264 0)
 			(effects
 				(font
@@ -10744,7 +10744,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q24")
+					(reference "Q28")
 					(unit 1)
 				)
 			)
@@ -10760,7 +10760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf04884c-5ae0-4d48-a01a-379bd8ca4726")
-		(property "Reference" "Q38"
+		(property "Reference" "Q42"
 			(at 168.91 46.8864 0)
 			(effects
 				(font
@@ -10908,7 +10908,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q38")
+					(reference "Q42")
 					(unit 1)
 				)
 			)
@@ -10924,7 +10924,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d645e9f5-bcb4-4766-a4e3-c50bc3b0f171")
-		(property "Reference" "Q36"
+		(property "Reference" "Q40"
 			(at 133.35 138.3264 0)
 			(effects
 				(font
@@ -11072,7 +11072,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q36")
+					(reference "Q40")
 					(unit 1)
 				)
 			)
@@ -11088,7 +11088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6e67b91-1b14-4c14-b254-03cdc167de1a")
-		(property "Reference" "Q31"
+		(property "Reference" "Q35"
 			(at 133.35 25.2964 0)
 			(effects
 				(font
@@ -11236,7 +11236,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q31")
+					(reference "Q35")
 					(unit 1)
 				)
 			)
@@ -11252,7 +11252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d98c4f9d-1612-427e-8ca1-3eefc66114ea")
-		(property "Reference" "Q8"
+		(property "Reference" "Q24"
 			(at 92.71 46.8864 0)
 			(effects
 				(font
@@ -11400,7 +11400,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q8")
+					(reference "Q24")
 					(unit 1)
 				)
 			)
@@ -11416,7 +11416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de54e570-cd6c-4dfc-a2dd-dd41ea2d8137")
-		(property "Reference" "Q2"
+		(property "Reference" "Q11"
 			(at 41.91 25.2964 0)
 			(effects
 				(font
@@ -11564,7 +11564,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q2")
+					(reference "Q11")
 					(unit 1)
 				)
 			)
@@ -11580,7 +11580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0b437d1-a85e-40a0-a617-a9355a41de5d")
-		(property "Reference" "Q23"
+		(property "Reference" "Q27"
 			(at 92.71 116.7364 0)
 			(effects
 				(font
@@ -11728,7 +11728,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q23")
+					(reference "Q27")
 					(unit 1)
 				)
 			)
@@ -11744,7 +11744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7bb3492-cf52-4798-adce-1382d97f4419")
-		(property "Reference" "Q41"
+		(property "Reference" "Q45"
 			(at 168.91 116.7364 0)
 			(effects
 				(font
@@ -11892,7 +11892,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q41")
+					(reference "Q45")
 					(unit 1)
 				)
 			)
@@ -11908,7 +11908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e933480c-2aee-42dc-8b31-5a92015a9c19")
-		(property "Reference" "Q10"
+		(property "Reference" "Q8"
 			(at 26.67 92.6064 0)
 			(effects
 				(font
@@ -12056,7 +12056,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q10")
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -12072,7 +12072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f047faf5-dd89-4cec-8564-242e6c7f1587")
-		(property "Reference" "Q26"
+		(property "Reference" "Q30"
 			(at 118.11 46.8864 0)
 			(effects
 				(font
@@ -12220,7 +12220,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q26")
+					(reference "Q30")
 					(unit 1)
 				)
 			)
@@ -12236,7 +12236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2c9e641-11dc-4ed6-99ae-3a8c2aab24f1")
-		(property "Reference" "Q16"
+		(property "Reference" "Q26"
 			(at 92.71 92.6064 0)
 			(effects
 				(font
@@ -12384,7 +12384,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q16")
+					(reference "Q26")
 					(unit 1)
 				)
 			)
@@ -12400,7 +12400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fad8e924-556d-4822-8ba6-a13ba9964254")
-		(property "Reference" "Q7"
+		(property "Reference" "Q18"
 			(at 77.47 46.8864 0)
 			(effects
 				(font
@@ -12548,7 +12548,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q7")
+					(reference "Q18")
 					(unit 1)
 				)
 			)
@@ -12564,7 +12564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd01e09a-8226-4618-8707-8ce29fefc66d")
-		(property "Reference" "J13"
+		(property "Reference" "J12"
 			(at 142.24 86.9949 90)
 			(effects
 				(font
@@ -12582,7 +12582,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm_Relief"
+		(property "Footprint" "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm"
 			(at 140.97 88.9 0)
 			(effects
 				(font
@@ -12618,7 +12618,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "J13")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -12634,7 +12634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd91c082-cc9a-4cb1-82bc-f06cf264b1e9")
-		(property "Reference" "Q19"
+		(property "Reference" "Q15"
 			(at 41.91 116.7364 0)
 			(effects
 				(font
@@ -12782,7 +12782,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/cf7fa0ae-78b0-45b6-90f8-84ece3ce253f"
-					(reference "Q19")
+					(reference "Q15")
 					(unit 1)
 				)
 			)

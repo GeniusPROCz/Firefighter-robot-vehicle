@@ -2030,6 +2030,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RF:NRF24L01_Breakout"
 			(pin_names
 				(offset 1.016)
@@ -2780,6 +2887,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -3014,10 +3271,28 @@
 		(uuid "04e1b104-63dd-4338-a805-b893e96b306b")
 	)
 	(junction
+		(at 80.01 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "096746f2-f465-4412-9501-b7c08bea5632")
+	)
+	(junction
 		(at 44.45 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b9d20bb-bcdb-49ac-b594-f3e8ade05408")
+	)
+	(junction
+		(at 72.39 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1eca4176-9a2d-4d58-b659-df8a28a06a38")
+	)
+	(junction
+		(at 111.76 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25d86b4f-808c-446f-9671-fda0578c60c1")
 	)
 	(junction
 		(at 52.07 87.63)
@@ -3026,10 +3301,10 @@
 		(uuid "26ecf92c-b187-4db4-8250-0990461c16c0")
 	)
 	(junction
-		(at 129.54 154.94)
+		(at 129.54 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2cdcc90f-931c-4af1-8a99-59106cc59542")
+		(uuid "2c7c73f5-0182-4944-9450-9a324ddc325a")
 	)
 	(junction
 		(at 50.8 120.65)
@@ -3038,34 +3313,22 @@
 		(uuid "386578bc-4060-4958-992c-0047e1518328")
 	)
 	(junction
-		(at 129.54 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3dd9f855-2a39-4865-8cb8-bcd84729ac9d")
-	)
-	(junction
-		(at 129.54 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "43864db4-92a9-4c9b-8dad-68041e9f7200")
-	)
-	(junction
 		(at 74.93 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43c19b39-c23c-43c1-921f-17bf66848e6f")
 	)
 	(junction
-		(at 129.54 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b0b64b0-b232-4edb-b6f9-ba059ae60206")
-	)
-	(junction
 		(at 63.5 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "694635c6-43cc-4091-91fe-503802388897")
+	)
+	(junction
+		(at 129.54 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "714d2b1a-e23f-4754-8725-5249c0bb4304")
 	)
 	(junction
 		(at 77.47 50.8)
@@ -3086,6 +3349,18 @@
 		(uuid "9d6e95a5-e0dd-47e8-9d50-acf18569b980")
 	)
 	(junction
+		(at 58.42 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ddc0317-ecff-47ee-8de7-611cc67d9d9b")
+	)
+	(junction
+		(at 129.54 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0e5f145-71f5-43aa-8467-f986c0c05907")
+	)
+	(junction
 		(at 33.02 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3104,16 +3379,34 @@
 		(uuid "c3acb2a5-3d4a-4d9a-8742-b2b7b86894ab")
 	)
 	(junction
+		(at 129.54 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2f90bb8-fd1b-4c13-a9ef-6bd54b7d1fd7")
+	)
+	(junction
 		(at 129.54 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e3ea09b6-cc53-46f4-9d2a-47c5e2442995")
+		(uuid "ddae7dbc-da67-45c2-b5fa-54ae694b354b")
 	)
 	(junction
 		(at 129.54 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f8d04649-41b1-44fa-beea-81d16249f0d8")
+		(uuid "ef6ecd77-ece9-452d-a46d-e6204bb3b14e")
+	)
+	(junction
+		(at 106.68 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f20d3dee-7971-456c-b193-a39f59c198a8")
+	)
+	(junction
+		(at 52.07 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8f0ebff-72d7-4db9-8602-55047ab2912f")
 	)
 	(junction
 		(at 54.61 72.39)
@@ -3359,6 +3652,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 22.86) (xy 106.68 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3029ccf3-ec13-448d-9000-87cbbb1811ee")
+	)
+	(wire
+		(pts
 			(xy 33.02 165.1) (xy 30.48 165.1)
 		)
 		(stroke
@@ -3426,6 +3729,26 @@
 			(type default)
 		)
 		(uuid "38b31a9c-c613-47eb-a687-4c65d0b771c6")
+	)
+	(wire
+		(pts
+			(xy 49.53 53.34) (xy 52.07 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38f25775-6dae-48e7-8046-639f0dde3910")
+	)
+	(wire
+		(pts
+			(xy 106.68 22.86) (xy 111.76 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39a39cb6-a36f-4168-a7b4-70083efef0e9")
 	)
 	(wire
 		(pts
@@ -3669,6 +3992,26 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 48.26) (xy 62.23 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6faf1f2d-6bcd-4bb0-bea0-6ce4cfb2a086")
+	)
+	(wire
+		(pts
+			(xy 59.69 59.69) (xy 59.69 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71a56f59-9500-4c39-8f49-c29e1d637a66")
+	)
+	(wire
+		(pts
 			(xy 129.54 68.58) (xy 123.19 68.58)
 		)
 		(stroke
@@ -3859,6 +4202,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 48.26) (xy 72.39 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91362022-60b5-4ad2-90b2-c9413ac25b04")
+	)
+	(wire
+		(pts
 			(xy 30.48 105.41) (xy 30.48 121.92)
 		)
 		(stroke
@@ -3926,6 +4279,16 @@
 			(type default)
 		)
 		(uuid "9bfaf855-01a6-4765-b4f7-8871f3289ce3")
+	)
+	(wire
+		(pts
+			(xy 49.53 52.07) (xy 49.53 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eb12386-b080-4428-81b3-199080a6ceae")
 	)
 	(wire
 		(pts
@@ -4019,6 +4382,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 59.69) (xy 59.69 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd96a9b9-3f9f-4a6d-bad7-7f07a09e6fcb")
+	)
+	(wire
+		(pts
 			(xy 33.02 93.98) (xy 33.02 105.41)
 		)
 		(stroke
@@ -4026,6 +4399,36 @@
 			(type default)
 		)
 		(uuid "c0f1d067-945d-4f29-81a9-99218b87aa2a")
+	)
+	(wire
+		(pts
+			(xy 50.8 59.69) (xy 58.42 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1afca0c-9ae0-49b6-bca5-495bd9c7ad59")
+	)
+	(wire
+		(pts
+			(xy 62.23 52.07) (xy 58.42 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c227e903-2a3e-48f3-9a8b-396443f635cb")
+	)
+	(wire
+		(pts
+			(xy 58.42 52.07) (xy 58.42 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4bb9ce6-a0dc-4226-a706-4d7d48bc0b0b")
 	)
 	(wire
 		(pts
@@ -4189,6 +4592,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 53.34) (xy 52.07 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e63f8b35-993a-4c51-9aac-41649195574b")
+	)
+	(wire
+		(pts
 			(xy 139.7 147.32) (xy 139.7 151.13)
 		)
 		(stroke
@@ -4249,6 +4662,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 22.86) (xy 116.84 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed2b8eb8-4a2a-451b-aafc-b7f7f0071892")
+	)
+	(wire
+		(pts
 			(xy 59.69 93.98) (xy 58.42 93.98)
 		)
 		(stroke
@@ -4279,16 +4702,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 50.8) (xy 80.01 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef17eaa3-f7a2-4117-a461-5851817787c9")
-	)
-	(wire
-		(pts
 			(xy 139.7 35.56) (xy 129.54 35.56)
 		)
 		(stroke
@@ -4296,6 +4709,26 @@
 			(type default)
 		)
 		(uuid "f15097c2-9a52-40d0-92a8-728d286b26f5")
+	)
+	(wire
+		(pts
+			(xy 52.07 58.42) (xy 59.69 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2e32fff-6697-4e47-b7b8-af939e47472e")
+	)
+	(wire
+		(pts
+			(xy 80.01 50.8) (xy 77.47 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5f55f3a-adfc-4d48-904f-ac315fb77e4c")
 	)
 	(wire
 		(pts
@@ -4450,6 +4883,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 111.76 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "0319ea53-89d9-4970-849b-2a6404b1f193")
+		(property "Reference" "H3"
+			(at 110.49 16.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 114.3 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_Via"
+			(at 111.76 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 111.76 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4bfc1935-4af6-43db-aa3d-2001290b1595")
+		)
+		(instances
+			(project "STM32 RC AUTO MOZEK"
+				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 63.5 170.18 0)
 		(unit 1)
@@ -4459,7 +4959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0508a8d5-7f49-4212-9952-559acfab7f70")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR015"
 			(at 63.5 176.53 0)
 			(effects
 				(font
@@ -4509,7 +5009,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR016")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4524,7 +5024,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06c1603c-ab5f-40f4-9ba7-01da38539afb")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR012"
 			(at 48.26 115.57 0)
 			(effects
 				(font
@@ -4574,7 +5074,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR035")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -4590,7 +5090,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "072ce837-f701-4295-8e56-e5f8a5f9dd39")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR018"
 			(at 129.54 57.15 0)
 			(effects
 				(font
@@ -4640,7 +5140,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR026")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4656,7 +5156,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a8e1452-86cc-4164-a4a5-907200e842d4")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR037"
 			(at 149.86 139.7 0)
 			(effects
 				(font
@@ -4706,7 +5206,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR021")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -4721,7 +5221,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "103c8cbb-fbb6-46b6-8d26-b4fbfc523a5f")
-		(property "Reference" "JP8"
+		(property "Reference" "JP4"
 			(at 32.766 81.28 0)
 			(effects
 				(font
@@ -4777,7 +5277,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "JP8")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -4793,7 +5293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12738a3d-2041-4f72-b6b5-727fdad3b24f")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR08"
 			(at 36.83 130.81 0)
 			(effects
 				(font
@@ -4843,77 +5343,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 129.54 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16fd5eae-928c-4761-a6dc-4cc2173cdf82")
-		(property "Reference" "R7"
-			(at 132.08 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 132.08 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 127.762 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 129.54 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef5974b0-0a9e-41e1-acae-1f236e8ea579")
-		)
-		(pin "2"
-			(uuid "b292a1aa-8921-4e70-a90a-592a6421b825")
-		)
-		(instances
-			(project "STM32 RC AUTO MOZEK"
-				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "R7")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4929,7 +5359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "187fb229-838e-4715-ac9e-6ebfa8345836")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 69.85 30.4799 0)
 			(effects
 				(font
@@ -5003,7 +5433,7 @@
 		(instances
 			(project ""
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -5019,7 +5449,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1aa1af52-7b4b-4e86-8a43-45cb757fbc91")
-		(property "Reference" "C5"
+		(property "Reference" "C9"
 			(at 139.192 155.448 0)
 			(effects
 				(font
@@ -5073,77 +5503,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 129.54 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1dceedf5-db3d-4fe1-8916-acd5c74542e0")
-		(property "Reference" "R13"
-			(at 132.08 187.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 132.08 190.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 127.762 189.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 129.54 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b37c22b-1eb3-4fe2-a8a0-55f3913f47ec")
-		)
-		(pin "2"
-			(uuid "9d4673e3-02d3-4a63-8ff6-6559af3b2d90")
-		)
-		(instances
-			(project "STM32 RC AUTO MOZEK"
-				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "R13")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -5159,7 +5519,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1dfe0150-d643-4202-8b7d-a4174417baa8")
-		(property "Reference" "C2"
+		(property "Reference" "C6"
 			(at 139.192 70.358 0)
 			(effects
 				(font
@@ -5213,7 +5573,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "C2")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -5229,7 +5589,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "239504db-bc75-46eb-ae5f-7d940a5ebff1")
-		(property "Reference" "C7"
+		(property "Reference" "C3"
 			(at 50.292 61.468 90)
 			(effects
 				(font
@@ -5283,7 +5643,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "C7")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -5370,7 +5730,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2787b410-961b-486e-9e38-b6e77a7d0a5b")
-		(property "Reference" "C9"
+		(property "Reference" "C1"
 			(at 50.292 79.502 0)
 			(effects
 				(font
@@ -5424,7 +5784,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "C9")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -5440,7 +5800,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a5bcbe5-5e6c-4048-aba9-c10d869c2ff7")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR028"
 			(at 139.7 167.64 0)
 			(effects
 				(font
@@ -5490,7 +5850,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR045")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -5506,7 +5866,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b45627f-b5cc-4753-97cf-742abd2e10b1")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR041"
 			(at 149.86 196.85 0)
 			(effects
 				(font
@@ -5556,7 +5916,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR025")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -5572,7 +5932,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c9658c9-85cc-45ea-8357-9a98fd2c94a6")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR031"
 			(at 149.86 52.07 0)
 			(effects
 				(font
@@ -5622,7 +5982,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR02")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -5638,7 +5998,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cc7ff19-cf6f-4602-a11d-993f01fd03a9")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR047"
 			(at 160.02 191.77 0)
 			(effects
 				(font
@@ -5688,7 +6048,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR042")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -5765,16 +6125,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 129.54 181.61 0)
+		(at 129.54 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3f7971b9-b95a-4a68-b400-f645bc33e991")
-		(property "Reference" "R12"
-			(at 132.08 180.3399 0)
+		(uuid "339dd7e3-c652-466d-aa60-38b9feb15574")
+		(property "Reference" "R10"
+			(at 132.08 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5782,8 +6142,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 132.08 182.8799 0)
+		(property "Value" "10K"
+			(at 132.08 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5792,7 +6152,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 127.762 181.61 90)
+			(at 127.762 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5801,7 +6161,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 181.61 0)
+			(at 129.54 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5810,7 +6170,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 129.54 181.61 0)
+			(at 129.54 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5819,10 +6179,80 @@
 			)
 		)
 		(pin "1"
-			(uuid "9baf9a5f-35c7-4f54-9b39-f06709d7229d")
+			(uuid "ede114af-b5b3-41a5-a8e8-2e8ba68ac3bc")
 		)
 		(pin "2"
-			(uuid "d14618ac-0cce-430c-b282-9dc702ee1f9c")
+			(uuid "72015e74-f1e5-4b60-beb5-54481a749c9a")
+		)
+		(instances
+			(project "STM32 RC AUTO MOZEK"
+				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3648e58f-51e0-4de7-94c4-f5855eebb71e")
+		(property "Reference" "R12"
+			(at 132.08 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 132.08 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 127.762 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53e466a9-a7f7-47f8-947d-3aa5bae038b6")
+		)
+		(pin "2"
+			(uuid "d68b6545-44da-4b77-9005-3ea57f0c9d52")
 		)
 		(instances
 			(project "STM32 RC AUTO MOZEK"
@@ -5914,7 +6344,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4770c79b-06ae-494a-8aab-a1721051a5fd")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR026"
 			(at 139.7 110.49 0)
 			(effects
 				(font
@@ -5964,7 +6394,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR049")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -5980,7 +6410,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "489cb15e-690e-42c9-bf95-b657d3db0d08")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR035"
 			(at 149.86 110.49 0)
 			(effects
 				(font
@@ -6030,7 +6460,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR019")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -6045,7 +6475,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "48ad54f4-77cf-4895-9a2c-d03fe36c010e")
-		(property "Reference" "R14"
+		(property "Reference" "R1"
 			(at 41.148 112.268 0)
 			(effects
 				(font
@@ -6054,7 +6484,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10K"
 			(at 40.894 119.38 0)
 			(effects
 				(font
@@ -6099,7 +6529,7 @@
 		(instances
 			(project ""
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "R14")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -6115,7 +6545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ab1af8d-0bce-4261-9ef4-0aa0203e7277")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR042"
 			(at 160.02 46.99 0)
 			(effects
 				(font
@@ -6165,7 +6595,7 @@
 		(instances
 			(project ""
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR011")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -6181,7 +6611,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c56f14f-5d8a-47dc-8571-7acd3f49f839")
-		(property "Reference" "C1"
+		(property "Reference" "C5"
 			(at 139.192 39.878 0)
 			(effects
 				(font
@@ -6235,7 +6665,7 @@
 		(instances
 			(project ""
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "C1")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -6251,7 +6681,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4db28ab0-4dc3-4f53-a360-c1ee9a1c538a")
-		(property "Reference" "C8"
+		(property "Reference" "C4"
 			(at 48.768 72.898 0)
 			(effects
 				(font
@@ -6305,7 +6735,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "C8")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -6321,7 +6751,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e0f8716-6eb9-4c7f-97c6-e6a08b0f9708")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR036"
 			(at 149.86 116.84 0)
 			(effects
 				(font
@@ -6371,7 +6801,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR020")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -6387,7 +6817,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e718433-4662-4951-b5fd-a3f8afb1f357")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR029"
 			(at 139.7 196.85 0)
 			(effects
 				(font
@@ -6437,7 +6867,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR043")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -6453,7 +6883,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f6e4ba6-e9f6-4d4f-81e0-4f5e821d754f")
-		(property "Reference" "C6"
+		(property "Reference" "C10"
 			(at 139.192 184.658 0)
 			(effects
 				(font
@@ -6507,7 +6937,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "C6")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6523,7 +6953,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "514a2298-4860-46f4-8186-14c51b675b9a")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR032"
 			(at 149.86 58.42 0)
 			(effects
 				(font
@@ -6573,7 +7003,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR07")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -6589,7 +7019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5194d62e-8b68-468e-a1a3-57ef81292f56")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR017"
 			(at 74.93 143.51 0)
 			(effects
 				(font
@@ -6639,7 +7069,73 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR04")
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 22.86 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51c1c3a4-e9e3-43c7-8c4d-2385c805c7cb")
+		(property "Reference" "#PWR084"
+			(at 106.68 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 103.378 25.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdabbc9a-1899-459b-a25b-55aff899accc")
+		)
+		(instances
+			(project "STM32 RC AUTO MOZEK"
+				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -6655,7 +7151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "525ba9cb-d5e8-422c-ad2a-b12a5b2a176d")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR046"
 			(at 160.02 162.56 0)
 			(effects
 				(font
@@ -6705,7 +7201,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR040")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -6722,7 +7218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5307288c-0bae-47a6-849d-a08620fb25e1")
-		(property "Reference" "U8"
+		(property "Reference" "U9"
 			(at 147.7167 110.49 0)
 			(effects
 				(font
@@ -6796,7 +7292,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "U8")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -6812,7 +7308,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57c58d26-b577-4235-8e77-9ada4a6224e4")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR023"
 			(at 129.54 199.39 0)
 			(effects
 				(font
@@ -6862,7 +7358,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR031")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6878,7 +7374,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5dc507f3-261e-4ae8-a7d1-8899d0feccc0")
-		(property "Reference" "C4"
+		(property "Reference" "C8"
 			(at 139.192 127.508 0)
 			(effects
 				(font
@@ -6932,7 +7428,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "C4")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -6947,7 +7443,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5de29c87-dd69-477f-a57b-d113289da7a7")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR011"
 			(at 45.72 78.74 0)
 			(effects
 				(font
@@ -6997,7 +7493,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR056")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7014,7 +7510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e9a2c86-0234-4905-89d2-5b7ed9da8dec")
-		(property "Reference" "U4"
+		(property "Reference" "U7"
 			(at 147.7167 52.07 0)
 			(effects
 				(font
@@ -7088,7 +7584,144 @@
 		(instances
 			(project ""
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "U4")
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "614f4d01-9fe6-43b9-a106-17290c0a46b9")
+		(property "Reference" "R14"
+			(at 132.08 187.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 132.08 190.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 127.762 189.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09d745b1-c0cd-4c28-84f6-37ceaccfd902")
+		)
+		(pin "2"
+			(uuid "2ce3b343-db76-4ea8-a92c-1a22930a61f1")
+		)
+		(instances
+			(project "STM32 RC AUTO MOZEK"
+				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 67.31 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "637e5d70-3380-43cf-9aee-9d976457e55e")
+		(property "Reference" "SW2"
+			(at 65.024 45.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 72.136 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
+			(at 67.31 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 67.31 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b7803bcc-160c-494f-b5fe-187e05ba7de5")
+		)
+		(pin "1"
+			(uuid "8e6b02cc-842d-4ba1-ac00-ac8e24f5f310")
+		)
+		(instances
+			(project "STM32 RC AUTO MOZEK"
+				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -7104,7 +7737,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "644484f1-d46e-4397-a573-cb839da0fb50")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR027"
 			(at 139.7 139.7 0)
 			(effects
 				(font
@@ -7154,7 +7787,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR047")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -7170,7 +7803,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "647f10e9-24ab-41b9-a097-123382d98c4b")
-		(property "Reference" "C10"
+		(property "Reference" "C2"
 			(at 49.022 84.582 90)
 			(effects
 				(font
@@ -7224,7 +7857,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "C10")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -7241,7 +7874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c11d763-4325-4f4f-8b9b-47b24a538048")
-		(property "Reference" "U11"
+		(property "Reference" "U6"
 			(at 147.7167 22.86 0)
 			(effects
 				(font
@@ -7315,7 +7948,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "U11")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -7331,7 +7964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ccfac2f-8673-43fa-8175-0d32b9c43a5b")
-		(property "Reference" "U14"
+		(property "Reference" "U3"
 			(at 48.26 180.34 90)
 			(effects
 				(font
@@ -7401,7 +8034,7 @@
 		(instances
 			(project ""
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "U14")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -7418,7 +8051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e958c7b-fa1c-430a-a934-d93c7018f45e")
-		(property "Reference" "U9"
+		(property "Reference" "U10"
 			(at 147.7167 138.43 0)
 			(effects
 				(font
@@ -7492,7 +8125,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "U9")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -7507,7 +8140,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "734591ed-2776-4acd-ac68-3e1b10afbe55")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR013"
 			(at 59.69 20.32 0)
 			(effects
 				(font
@@ -7557,7 +8190,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR032")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7573,7 +8206,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73c9da39-165a-47e8-97a1-ffcf1cb80276")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR022"
 			(at 129.54 168.91 0)
 			(effects
 				(font
@@ -7623,7 +8256,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR030")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7639,7 +8272,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "748c6686-39f3-45d6-90ce-5bb26ad7805c")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR039"
 			(at 149.86 167.64 0)
 			(effects
 				(font
@@ -7689,7 +8322,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR023")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -7705,7 +8338,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "764d276c-d4ca-4bfa-9082-19f7f6e6c623")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR040"
 			(at 149.86 173.99 0)
 			(effects
 				(font
@@ -7755,7 +8388,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR024")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -7771,7 +8404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77d96093-03c2-4e07-8337-ce7b51930d25")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 132.08 38.0999 0)
 			(effects
 				(font
@@ -7780,7 +8413,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10K"
 			(at 132.08 40.6399 0)
 			(effects
 				(font
@@ -7825,7 +8458,7 @@
 		(instances
 			(project ""
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -7841,7 +8474,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "788bb93d-e72f-4c42-9dda-d317fc539895")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR021"
 			(at 129.54 140.97 0)
 			(effects
 				(font
@@ -7891,7 +8524,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR029")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7976,7 +8609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8159b530-8ee9-46ed-835c-aacc805ef24b")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR043"
 			(at 160.02 76.2 0)
 			(effects
 				(font
@@ -8026,77 +8659,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 129.54 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85f782d4-ff0a-4dd8-82b7-cbc58500fb34")
-		(property "Reference" "R10"
-			(at 132.08 149.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 132.08 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 127.762 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 129.54 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a69bd35-67f4-482b-b8fb-3651ffc0319a")
-		)
-		(pin "2"
-			(uuid "0934e6cb-6c41-48bc-82c0-4e18f7eb899d")
-		)
-		(instances
-			(project "STM32 RC AUTO MOZEK"
-				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "R10")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -8111,7 +8674,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a5907ee-1043-4e60-92eb-50f578a270b5")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR010"
 			(at 44.45 93.98 0)
 			(effects
 				(font
@@ -8161,7 +8724,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR055")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -8178,7 +8741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bbaba9a-ab7a-4b46-b10a-93a85a3171b4")
-		(property "Reference" "U10"
+		(property "Reference" "U11"
 			(at 147.7167 167.64 0)
 			(effects
 				(font
@@ -8252,7 +8815,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "U10")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -8260,16 +8823,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 74.93 50.8 0)
+		(at 80.01 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8cc9b978-b058-43cb-bac7-eec99dfd8470")
-		(property "Reference" "#PWR03"
-			(at 74.93 54.61 0)
+		(property "Reference" "#PWR016"
+			(at 80.01 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8278,7 +8840,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 74.93 45.72 0)
+			(at 82.804 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8286,7 +8848,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 50.8 0)
+			(at 80.01 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8295,7 +8857,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 50.8 0)
+			(at 80.01 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8304,7 +8866,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 74.93 50.8 0)
+			(at 80.01 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8318,7 +8880,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR03")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -8326,16 +8888,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 129.54 93.98 0)
+		(at 129.54 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "938d8a24-1f14-4510-8a26-270f6e74b105")
-		(property "Reference" "R6"
-			(at 132.08 92.7099 0)
+		(uuid "915b37b1-d1f8-4b4d-b6d2-2a2b66955db9")
+		(property "Reference" "R8"
+			(at 132.08 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8343,8 +8905,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 132.08 95.2499 0)
+		(property "Value" "10K"
+			(at 132.08 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8353,7 +8915,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 127.762 93.98 90)
+			(at 127.762 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8362,7 +8924,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 93.98 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8371,7 +8933,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 129.54 93.98 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8380,10 +8942,80 @@
 			)
 		)
 		(pin "1"
-			(uuid "ec5b1dfb-4b33-4bd2-a353-18106fa6b0fe")
+			(uuid "84d521d6-82d2-4caf-a393-5d767949b135")
 		)
 		(pin "2"
-			(uuid "5ae81333-292c-40eb-98c6-0e7ffca61bfa")
+			(uuid "684cf986-845a-485f-b7de-9807539375c9")
+		)
+		(instances
+			(project "STM32 RC AUTO MOZEK"
+				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91f613f4-8283-4568-affd-073fe22d1a65")
+		(property "Reference" "R6"
+			(at 132.08 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 132.08 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 127.762 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5539779e-cb72-49cb-8113-a8643f028135")
+		)
+		(pin "2"
+			(uuid "412346ad-bd66-470d-8937-3847cff69404")
 		)
 		(instances
 			(project "STM32 RC AUTO MOZEK"
@@ -8404,7 +9036,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95fb7c4a-1886-4ada-bf5b-e3e8b408f8df")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR030"
 			(at 149.86 29.21 0)
 			(effects
 				(font
@@ -8454,7 +9086,74 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR01")
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 106.68 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "99f9abd5-d1d9-4add-9e17-bd6835c94b41")
+		(property "Reference" "H2"
+			(at 105.41 16.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 109.22 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_Via"
+			(at 106.68 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 106.68 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1e84cc9-fafe-4711-b914-7f1469e0a6ee")
+		)
+		(instances
+			(project "STM32 RC AUTO MOZEK"
+				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -8470,7 +9169,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c1f29d8-8ec7-4b67-8eb4-0b4f4c5528cc")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR025"
 			(at 139.7 82.55 0)
 			(effects
 				(font
@@ -8520,7 +9219,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR051")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -8536,7 +9235,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d08aee8-8083-43e0-a7c9-4bc9794350b8")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR020"
 			(at 129.54 111.76 0)
 			(effects
 				(font
@@ -8586,7 +9285,77 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR028")
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e657aec-ab3a-4f3b-9c36-209af9531641")
+		(property "Reference" "R7"
+			(at 132.08 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 132.08 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 127.762 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "420c0c2a-370c-4699-86bc-e1902ba759db")
+		)
+		(pin "2"
+			(uuid "f3d43e40-52e3-498c-b502-905419673c8e")
+		)
+		(instances
+			(project "STM32 RC AUTO MOZEK"
+				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8603,7 +9372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a878fc65-715f-4130-b362-89de13b93f16")
-		(property "Reference" "U7"
+		(property "Reference" "U8"
 			(at 147.7167 81.28 0)
 			(effects
 				(font
@@ -8677,7 +9446,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "U7")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -8693,7 +9462,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9127a2d-0078-43e9-97f8-059fc04c8e9f")
-		(property "Reference" "C3"
+		(property "Reference" "C7"
 			(at 139.192 98.298 0)
 			(effects
 				(font
@@ -8747,77 +9516,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 129.54 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ace4fab9-64bb-4be9-8ec9-6605829ccfe9")
-		(property "Reference" "R11"
-			(at 132.08 157.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 132.08 160.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 127.762 158.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 129.54 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a7e157f4-3ba6-4bb4-91c7-b410bcc9032b")
-		)
-		(pin "2"
-			(uuid "b48120b0-19c6-4aeb-be9e-212b7cee7fe7")
-		)
-		(instances
-			(project "STM32 RC AUTO MOZEK"
-				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "R11")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -8833,7 +9532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae090fe1-fbb9-47c7-8c70-053b6903f5ca")
-		(property "Reference" "R15"
+		(property "Reference" "R2"
 			(at 50.8 114.2999 0)
 			(effects
 				(font
@@ -8842,7 +9541,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10K"
 			(at 50.8 116.8399 0)
 			(effects
 				(font
@@ -8887,7 +9586,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "R15")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -8902,7 +9601,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b04331af-8970-4e15-aa2e-5677818271a0")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR09"
 			(at 40.64 115.57 0)
 			(effects
 				(font
@@ -8952,7 +9651,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR034")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8968,7 +9667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1a58e01-30ed-4a07-96bb-a9a6089f6727")
-		(property "Reference" "J8"
+		(property "Reference" "J2"
 			(at 29.21 132.08 90)
 			(effects
 				(font
@@ -9029,7 +9728,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "J8")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -9045,7 +9744,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c401b985-9ea4-498f-9f32-38ad8ed88822")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR024"
 			(at 139.7 52.07 0)
 			(effects
 				(font
@@ -9095,7 +9794,74 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR053")
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 116.84 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4707eb0-b8ac-454c-8d89-154b115a29c8")
+		(property "Reference" "H4"
+			(at 115.57 16.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 119.38 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_Via"
+			(at 116.84 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 116.84 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90e71c08-2cc5-4114-8b91-1f8eab7432e4")
+		)
+		(instances
+			(project "STM32 RC AUTO MOZEK"
+				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -9111,7 +9877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4f76633-6ca5-433b-8067-4768f5136e20")
-		(property "Reference" "U13"
+		(property "Reference" "U5"
 			(at 79.6133 137.16 0)
 			(effects
 				(font
@@ -9304,7 +10070,7 @@
 		(instances
 			(project ""
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "U13")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -9318,9 +10084,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c5507ba4-3c25-46da-a73f-14b98d0a96e1")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR014"
 			(at 59.69 53.34 0)
 			(effects
 				(font
@@ -9330,7 +10095,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.69 52.07 0)
+			(at 60.198 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9370,7 +10135,74 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR033")
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 101.6 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6d28fde-a975-4c30-947c-8778ee675407")
+		(property "Reference" "H1"
+			(at 100.33 16.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 104.14 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_Via"
+			(at 101.6 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 101.6 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3449fcc5-c873-456b-8cf8-28b1983976e6")
+		)
+		(instances
+			(project ""
+				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -9385,7 +10217,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7a440af-50c6-4580-9818-6aba93ee1c85")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR07"
 			(at 33.02 168.91 0)
 			(effects
 				(font
@@ -9435,7 +10267,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR014")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -9451,7 +10283,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c833043e-c3ec-41d2-b8bd-84570990de05")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR033"
 			(at 149.86 81.28 0)
 			(effects
 				(font
@@ -9501,42 +10333,23 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR017")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 129.54 72.39 0)
+		(lib_id "power:GND")
+		(at 43.18 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d162af89-338f-460d-9614-427c6d0c5cfe")
-		(property "Reference" "R5"
-			(at 132.08 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 132.08 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 127.762 72.39 90)
+		(uuid "d0ba3191-b037-4004-818f-a56934552733")
+		(property "Reference" "#PWR081"
+			(at 43.18 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9544,8 +10357,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 129.54 72.39 0)
+		(property "Value" "GND"
+			(at 42.672 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9553,8 +10374,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 129.54 72.39 0)
+		(property "Datasheet" ""
+			(at 43.18 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9563,15 +10393,81 @@
 			)
 		)
 		(pin "1"
-			(uuid "2964661d-974c-4ba4-a6b0-d2d8cbb143d5")
-		)
-		(pin "2"
-			(uuid "619f0820-6a11-4ecc-9087-a87b00f68b6f")
+			(uuid "b1889679-bd32-454f-aa1f-dadd5216a003")
 		)
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "R5")
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 52.07 49.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0c0b396-0aa1-4633-b4bd-4947124b00b5")
+		(property "Reference" "R17"
+			(at 53.594 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 53.34 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 53.848 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 52.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec34cf97-51e8-4d6d-898c-f0ee488759b4")
+		)
+		(pin "2"
+			(uuid "96ae51d9-8aa3-4851-8064-cfef94fd2974")
+		)
+		(instances
+			(project "STM32 RC AUTO MOZEK"
+				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -9587,7 +10483,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d2f9a0de-6e6e-49a4-b6a6-5ab3563443be")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR034"
 			(at 149.86 87.63 0)
 			(effects
 				(font
@@ -9637,24 +10533,24 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR018")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 129.54 123.19 0)
+		(lib_id "Device:C")
+		(at 45.72 52.07 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4968b89-edc0-4b7e-850d-6a2c76d5e756")
-		(property "Reference" "R8"
-			(at 132.08 121.9199 0)
+		(uuid "d573728c-c2ab-42ed-bb5e-26081ab6ce51")
+		(property "Reference" "C16"
+			(at 40.894 51.054 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9662,8 +10558,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 132.08 124.4599 0)
+		(property "Value" "12,5pF"
+			(at 42.926 48.768 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9671,8 +10567,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 127.762 123.19 90)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 41.91 51.1048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9681,7 +10577,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 123.19 0)
+			(at 45.72 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9689,25 +10585,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 129.54 123.19 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 45.72 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "0f0abb24-a941-4f3b-89b7-172441d4b299")
 		)
 		(pin "2"
-			(uuid "24b3e655-4c77-49c9-a9af-2cc7b8f95d22")
+			(uuid "3d265ef3-803d-4a5d-867b-44be52e6cbcd")
+		)
+		(pin "1"
+			(uuid "9c1511fa-cee7-497f-b7e4-6a0f4ccace5f")
 		)
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "R8")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -9723,7 +10619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d911ca87-8cd6-448c-857d-77289b7f6a32")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR044"
 			(at 160.02 105.41 0)
 			(effects
 				(font
@@ -9773,42 +10669,23 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR036")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 129.54 46.99 0)
+		(lib_id "power:GND")
+		(at 41.91 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8a6866f-3e86-4914-a498-a912ad7fa5cc")
-		(property "Reference" "R3"
-			(at 132.08 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 132.08 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 127.762 46.99 90)
+		(uuid "e29e2408-86b9-4a03-9d72-5f13d03454e3")
+		(property "Reference" "#PWR083"
+			(at 41.91 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9816,8 +10693,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 129.54 46.99 0)
+		(property "Value" "GND"
+			(at 42.164 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9825,8 +10710,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 129.54 46.99 0)
+		(property "Datasheet" ""
+			(at 41.91 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 41.91 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9835,15 +10729,217 @@
 			)
 		)
 		(pin "1"
-			(uuid "7841123b-8d0b-4a1d-8b21-5f60128818ff")
-		)
-		(pin "2"
-			(uuid "b07a25db-dd5e-40d2-903b-2d0c639889a1")
+			(uuid "94116d5d-d282-4445-9099-3a5dc9464c34")
 		)
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "R3")
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 52.07 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea2ed415-6699-4482-a1b1-73d05aeb44a3")
+		(property "Reference" "#PWR082"
+			(at 52.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 54.864 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 52.07 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c225d7ed-fb84-46a0-86d3-e0bb637ed943")
+		)
+		(instances
+			(project "STM32 RC AUTO MOZEK"
+				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee098291-ceae-42c5-8174-f986d8c34efd")
+		(property "Reference" "R9"
+			(at 132.08 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 132.08 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 127.762 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9d814ee-89ef-492b-956f-166f1c88546b")
+		)
+		(pin "2"
+			(uuid "2cfe074d-b0a4-42e2-8a04-e45bfee66542")
+		)
+		(instances
+			(project "STM32 RC AUTO MOZEK"
+				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee115efa-cfc3-40fb-b061-baf9e705cd34")
+		(property "Reference" "R13"
+			(at 132.08 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 132.08 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 127.762 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f88c6d6-69f6-4d71-8f37-f760a543f56e")
+		)
+		(pin "2"
+			(uuid "ef05ae2c-1f65-4a29-9db0-c1db237ab0c9")
+		)
+		(instances
+			(project "STM32 RC AUTO MOZEK"
+				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -9859,7 +10955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eea06f4a-f12f-49f0-bd65-fbfc5c2745b2")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR045"
 			(at 160.02 134.62 0)
 			(effects
 				(font
@@ -9909,7 +11005,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR038")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -9917,16 +11013,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 129.54 130.81 0)
+		(at 129.54 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f5ef7104-ff7f-4eb9-bf0b-c01e2aaa5210")
-		(property "Reference" "R9"
-			(at 132.08 129.5399 0)
+		(uuid "ef94aff0-6d6f-4781-abda-cd66fd186d46")
+		(property "Reference" "R11"
+			(at 132.08 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9934,8 +11030,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 132.08 132.0799 0)
+		(property "Value" "10K"
+			(at 132.08 152.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9944,7 +11040,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 127.762 130.81 90)
+			(at 127.762 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9953,7 +11049,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 130.81 0)
+			(at 129.54 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9962,7 +11058,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 129.54 130.81 0)
+			(at 129.54 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9971,15 +11067,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b63cfff4-df2a-4a96-b1df-7ca54885a53f")
+			(uuid "e6f935ac-015d-4256-9ae9-60843563cc08")
 		)
 		(pin "2"
-			(uuid "eb15d80a-199c-4c28-9238-fc17b1e3be77")
+			(uuid "5a063b83-10a4-4055-bb58-89bc0a9d2787")
 		)
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9987,16 +11083,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 129.54 64.77 0)
+		(at 129.54 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f825e253-d135-4f87-8a36-7f056b1cf129")
+		(uuid "f01bc218-de9c-4079-8b47-3ba22f85bbd3")
 		(property "Reference" "R4"
-			(at 132.08 63.4999 0)
+			(at 132.08 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10004,8 +11100,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 132.08 66.0399 0)
+		(property "Value" "10K"
+			(at 132.08 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10014,7 +11110,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 127.762 64.77 90)
+			(at 127.762 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10023,7 +11119,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 64.77 0)
+			(at 129.54 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10032,7 +11128,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 129.54 64.77 0)
+			(at 129.54 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10041,15 +11137,82 @@
 			)
 		)
 		(pin "1"
-			(uuid "1af4a6c3-592f-4a04-baa6-c038d09405d8")
+			(uuid "1f84be1b-f281-4cd0-a975-c46db70cd243")
 		)
 		(pin "2"
-			(uuid "c104d17c-ec3e-495a-adbb-7e901682d994")
+			(uuid "db1bcd24-7cf2-406e-baec-b57282dc4ab9")
 		)
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 46.99 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2277d61-8c9f-46cb-a672-01d67f7529ac")
+		(property "Reference" "R18"
+			(at 46.228 61.468 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 46.228 57.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 46.99 61.468 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 46.99 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7861ebb0-2b85-4a1e-b2b0-37369014ef0d")
+		)
+		(pin "2"
+			(uuid "d3fe0538-914c-4bce-be58-dd4a556c0199")
+		)
+		(instances
+			(project "STM32 RC AUTO MOZEK"
+				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -10065,7 +11228,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa494f15-554e-4dfe-acae-1cc9509d2d5f")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR019"
 			(at 129.54 82.55 0)
 			(effects
 				(font
@@ -10115,7 +11278,7 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR027")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -10131,7 +11294,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fabebfcc-8985-456e-a81a-8e401593698d")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR038"
 			(at 149.86 144.78 0)
 			(effects
 				(font
@@ -10181,7 +11344,77 @@
 		(instances
 			(project "STM32 RC AUTO MOZEK"
 				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
-					(reference "#PWR022")
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fadd49e0-bded-4ee2-9a9f-9ebbf3c9e864")
+		(property "Reference" "R5"
+			(at 132.08 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 132.08 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 127.762 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "def87a9e-c092-4f2c-b579-05d5e8b28e46")
+		)
+		(pin "2"
+			(uuid "3f0babd9-8da6-402a-99ca-6409bd811ef1")
+		)
+		(instances
+			(project "STM32 RC AUTO MOZEK"
+				(path "/6e2a7673-a3dd-4427-9adf-f28c7cc113a0/51c8adc8-39e6-4ff6-9e54-3a41925bf3db"
+					(reference "R5")
 					(unit 1)
 				)
 			)
