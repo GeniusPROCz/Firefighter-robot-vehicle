@@ -5,6 +5,297 @@
 	(uuid "b1f9147f-46b9-47b9-837a-c3ed0b7f7b76")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x05_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x05_Socket"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x05, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x05_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -0.508 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 4.572)
+					(mid -0.5058 5.08)
+					(end 0 5.588)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.032)
+					(mid -0.5058 2.54)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -5.588)
+					(mid -0.5058 -5.08)
+					(end 0 -4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Battery_Cell"
 			(pin_numbers
 				(hide yes)
@@ -183,19 +474,27 @@
 			(embedded_fonts no)
 		)
 	)
-	(wire
-		(pts
-			(xy 121.92 63.5) (xy 121.92 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09a4631d-6c05-4317-961a-c7e4bc2c75a0")
+	(junction
+		(at 121.92 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0089f8b3-97d3-413a-b591-00006a9c5fa2")
+	)
+	(junction
+		(at 121.92 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d24602c-151d-4247-9ec6-2468abac084b")
+	)
+	(junction
+		(at 121.92 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec1fbdf5-1a47-4fd8-a199-3fd4ce2d0725")
 	)
 	(wire
 		(pts
-			(xy 121.92 76.2) (xy 118.11 76.2)
+			(xy 121.92 67.31) (xy 110.49 67.31)
 		)
 		(stroke
 			(width 0)
@@ -205,47 +504,117 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 73.66) (xy 111.76 73.66)
+			(xy 111.76 59.69) (xy 111.76 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "31b18631-5621-4c82-939c-8c1b68752234")
+		(uuid "32117ebb-8699-4412-aedb-4bdb26fbea63")
 	)
 	(wire
 		(pts
-			(xy 121.92 40.64) (xy 121.92 43.18)
+			(xy 110.49 57.15) (xy 110.49 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd8e1498-e386-4128-ba80-6effd1594224")
+		(uuid "3699e7fa-37d5-45a0-a965-86ac842dd9e1")
 	)
 	(wire
 		(pts
-			(xy 121.92 50.8) (xy 121.92 55.88)
+			(xy 110.49 52.07) (xy 121.92 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc4c5433-398e-43d0-b053-e94ea46c0ae7")
+		(uuid "6ce091d7-6458-4c85-94f9-88bc2900d0fe")
 	)
 	(wire
 		(pts
-			(xy 118.11 76.2) (xy 118.11 73.66)
+			(xy 121.92 59.69) (xy 111.76 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dc629fcc-73a1-4a3c-99cb-dbc170888340")
+		(uuid "97104b65-eef3-4226-b4d8-649b6e48831f")
+	)
+	(wire
+		(pts
+			(xy 118.11 44.45) (xy 118.11 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3c3c627-7471-4c9a-9e65-9e45295faf91")
+	)
+	(wire
+		(pts
+			(xy 121.92 44.45) (xy 118.11 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6174923-9ef3-4ecb-bd35-c49d4550cf1d")
+	)
+	(wire
+		(pts
+			(xy 111.76 54.61) (xy 110.49 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd9c09c4-941e-4ba5-9669-62fb1a44bbe3")
+	)
+	(wire
+		(pts
+			(xy 118.11 49.53) (xy 110.49 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daa98da2-33c9-40a0-b4b6-40ed2b1d3d6b")
+	)
+	(wire
+		(pts
+			(xy 116.84 46.99) (xy 110.49 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc014d0e-c098-4ce7-9bfd-ba48271bf17f")
+	)
+	(wire
+		(pts
+			(xy 116.84 36.83) (xy 116.84 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdfff0c0-d8bd-41fa-be15-32785071c1f8")
+	)
+	(wire
+		(pts
+			(xy 121.92 36.83) (xy 116.84 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff1ad293-c04a-4e53-b466-58a4827413cc")
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 121.92 73.66 0)
+		(at 121.92 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -254,7 +623,7 @@
 		(fields_autoplaced yes)
 		(uuid "0fcd2d7f-de4b-49be-9ba8-f96fdfe05fb0")
 		(property "Reference" "BT3"
-			(at 125.73 70.5484 0)
+			(at 125.73 61.6584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -263,7 +632,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 125.73 73.0884 0)
+			(at 125.73 64.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -272,7 +641,7 @@
 			)
 		)
 		(property "Footprint" "Batteryholder:21700 laskakit battery holder"
-			(at 121.92 72.136 90)
+			(at 121.92 63.246 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -281,7 +650,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 72.136 90)
+			(at 121.92 63.246 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -290,7 +659,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 121.92 73.66 0)
+			(at 121.92 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -315,7 +684,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 121.92 60.96 0)
+		(at 121.92 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -324,7 +693,7 @@
 		(fields_autoplaced yes)
 		(uuid "84a5598f-bad9-4874-a7a9-b92a45781262")
 		(property "Reference" "BT2"
-			(at 125.73 57.8484 0)
+			(at 125.73 54.0384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -333,7 +702,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 125.73 60.3884 0)
+			(at 125.73 56.5784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -342,7 +711,7 @@
 			)
 		)
 		(property "Footprint" "Batteryholder:21700 laskakit battery holder"
-			(at 121.92 59.436 90)
+			(at 121.92 55.626 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -351,7 +720,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 59.436 90)
+			(at 121.92 55.626 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -360,7 +729,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 121.92 60.96 0)
+			(at 121.92 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -385,7 +754,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 121.92 38.1 0)
+		(at 121.92 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -394,7 +763,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8bea6b5-555f-4775-8492-80805ad7cfc6")
 		(property "Reference" "BT4"
-			(at 125.73 34.9884 0)
+			(at 125.73 38.7984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -403,7 +772,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 125.73 37.5284 0)
+			(at 125.73 41.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -412,7 +781,7 @@
 			)
 		)
 		(property "Footprint" "Batteryholder:21700 laskakit battery holder"
-			(at 121.92 36.576 90)
+			(at 121.92 40.386 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -421,7 +790,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 36.576 90)
+			(at 121.92 40.386 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -430,7 +799,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 121.92 38.1 0)
+			(at 121.92 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -455,7 +824,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 121.92 48.26 0)
+		(at 121.92 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -464,7 +833,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd44fba2-ca3e-4018-99cc-97d77a291592")
 		(property "Reference" "BT1"
-			(at 125.73 45.1484 0)
+			(at 125.73 46.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -473,7 +842,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 125.73 47.6884 0)
+			(at 125.73 48.9584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -482,7 +851,7 @@
 			)
 		)
 		(property "Footprint" "Batteryholder:21700 laskakit battery holder"
-			(at 121.92 46.736 90)
+			(at 121.92 48.006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -491,7 +860,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 46.736 90)
+			(at 121.92 48.006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -500,7 +869,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 121.92 48.26 0)
+			(at 121.92 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -518,6 +887,84 @@
 			(project ""
 				(path "/b1f9147f-46b9-47b9-837a-c3ed0b7f7b76"
 					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x05_Socket")
+		(at 105.41 52.07 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc13383f-de6c-49b7-921c-c62c2e071d4d")
+		(property "Reference" "J1"
+			(at 106.045 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x05_Socket"
+			(at 106.045 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
+			(at 105.41 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 105.41 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e9232973-e27a-46ce-8942-6fa385f81eb4")
+		)
+		(pin "1"
+			(uuid "25efd8a3-ab8e-4c87-85d3-9c564727515c")
+		)
+		(pin "2"
+			(uuid "616015cb-d156-40f9-94f3-5036c1c185cb")
+		)
+		(pin "4"
+			(uuid "3c172263-b802-4914-b793-8b3ec83718a8")
+		)
+		(pin "5"
+			(uuid "a34cc586-f572-4d27-af6b-459fecebd30b")
+		)
+		(instances
+			(project ""
+				(path "/b1f9147f-46b9-47b9-837a-c3ed0b7f7b76"
+					(reference "J1")
 					(unit 1)
 				)
 			)
