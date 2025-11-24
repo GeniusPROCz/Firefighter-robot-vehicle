@@ -1,4 +1,4 @@
-27467322061212901
+27476133659439070
 1393788-3
 TE_1393788-3
 
@@ -404,7 +404,7 @@ Batteryholder
 
 0
 2
-1
+2
 Button_Switch_Keyboard
 SW_Cherry_MX_1.00u_PCB
 Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
@@ -57168,6 +57168,20 @@ ceramic
 0
 3
 3
+DFR0571
+Untitled
+
+
+0
+4
+4
+DIP_Swithc
+A6FR-4104
+
+
+0
+8
+8
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -89305,6 +89319,13 @@ TO-264-5 Vertical RM 3.81mm
 0
 5
 5
+PinHeadersCustom
+PinHeader-3x2-custom
+
+
+0
+6
+6
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
@@ -93827,6 +93848,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SI2312
+SOT23
+<b>SMALL OUTLINE TRANSISTOR</b><p>reflow soldering
+
+0
+3
+3
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -110130,3 +110158,10 @@ CHESTER-X-NO-SPRING
 0
 17
 17
+pins
+3x2 PinHeader
+
+
+0
+6
+6
