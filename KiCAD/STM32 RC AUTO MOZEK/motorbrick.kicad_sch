@@ -3617,36 +3617,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 12.7 60.96) (xy 12.7 106.68) (xy 105.41 106.68) (xy 105.41 60.96)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 0bfa31ab-c93c-4511-a5da-875d62220ba0)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 195.58 60.96) (xy 105.41 60.96) (xy 105.41 106.68) (xy 195.58 106.68)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 6b965122-fb33-4dcd-913b-edc5d0eaba7e)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 12.7 12.7) (xy 12.7 60.96) (xy 105.41 60.96) (xy 105.41 15.24) (xy 105.41 12.7)
 			)
 			(stroke
@@ -3656,22 +3626,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 752cf0fc-5e97-460e-8f19-d70a876d25ec)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 105.41 12.7) (xy 105.41 60.96) (xy 195.58 60.96) (xy 195.58 12.7)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 7d521672-4809-461c-9458-500d5fe34bd5)
+			(uuid 478cc0ed-7527-44b2-901e-4e2b75c3f794)
 		)
 	)
 	(rule_area
@@ -3686,7 +3641,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 9180b55a-867f-413b-b817-677a1a48ce85)
+			(uuid 867d9b10-2db6-40a0-921b-3bb7d3f9f385)
 		)
 	)
 	(rule_area
@@ -3701,7 +3656,52 @@
 			(fill
 				(type none)
 			)
-			(uuid a155418a-681d-4c94-b09e-6872db8e6217)
+			(uuid ca4193b3-d98d-4ac5-a5ad-9088562c1c42)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 195.58 60.96) (xy 105.41 60.96) (xy 105.41 106.68) (xy 195.58 106.68)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid cfc949bc-f253-4db1-af1b-b9607ab89f27)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 105.41 12.7) (xy 105.41 60.96) (xy 195.58 60.96) (xy 195.58 12.7)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid d441d742-fe00-41c5-aa74-f69f793db9df)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 12.7 60.96) (xy 12.7 106.68) (xy 105.41 106.68) (xy 105.41 60.96)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid e6982e63-f208-468b-9cdb-44ed6e8229ac)
 		)
 	)
 	(symbol
