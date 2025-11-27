@@ -1,0 +1,10 @@
+13:29:34 **** Incremental Build of configuration Debug for project Devkit ****
+make -j12 all 
+arm-none-eabi-size  Devkit.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11160	     12	   1796	  12968	   32a8	Devkit.elf
+Finished building: default.size.stdout
+ 
+
+13:29:34 Build Finished. 0 errors, 0 warnings. (took 395ms)
+
